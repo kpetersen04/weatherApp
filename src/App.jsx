@@ -1,12 +1,21 @@
 import { useState } from "react";
 import "./App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import SearchAside from "./components/SearchAside";
+import WeatherResultsContainer from "./components/WeatherResultsContainer";
+import FourDayContainer from "./components/FourDayContainer";
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <>
-      <h1>The most reliable weather app in the WORLD!</h1>
+      <Header />
+      <SearchAside />
+      <WeatherResultsContainer />
+      <FourDayContainer />
+      <Footer />
     </>
   );
 }
