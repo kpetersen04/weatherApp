@@ -1,7 +1,7 @@
 const FourDayContainer = () => {
   return (
     <>
-      <div>
+      <div className="four-day-container">
         <p>Date</p>
         <image>Image here</image>
         <p>City Temp</p>

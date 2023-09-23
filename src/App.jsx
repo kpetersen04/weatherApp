@@ -12,9 +12,13 @@ function App() {
   return (
     <>
       <Header />
-      <SearchAside />
-      <WeatherResultsContainer />
-      <FourDayContainer />
+      <div className="main-container">
+        <SearchAside />
+        <div className="weather-results">
+          <WeatherResultsContainer />
+          <FourDayContainer />
+        </div>
+      </div>
       <Footer />
     </>
   );
